@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', serif;
+}
+body{
+    background-image: url('w.avif');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-size: cover;
+}
+h1{
+    display: inline-block;
+    color: white;
+    padding-left: 10px;
+    font-weight: 900;
+    font-size: 45px;
+}
+.header{
+    display: flex;
+    background: transparent;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 45px;
+    padding: 0px 10px 10px 50px;
+}
+.navigation {
+    position: absolute;
+    left: 600px;
+    right: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px ;
+    margin: 10px 50px 0 0;
+}
+.navigation a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.navigation button{
+    width: 100px;
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.navigation button:hover{
+    background-color: white;
+    color: black;
+}
+.navigation a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.wrapper{
+    width: 400px;
+    padding: 15px;
+    border: 5px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+.wrapper_logup{
+    width: 550px;
+    padding: 15px;
+    margin: 5px;
+    background: transparent;
+    font-size: 20px; 
+    backdrop-filter: blur(5px);
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: left;
+}
+.wrapper_logup .line_log_up{
+    margin: 0 5px 0 5px;
+    padding: 5px;
+    width: 100%;
+    height: 30px;
+    align-content: center;
+}
+.wrapper_logup .line_log_up #file{
+    border: none;
+    border-radius: 0%;
+}
+.wrapper_logup .line_log_up #add_lable{
+    position:relative;
+    padding-top: 8px;
+    bottom: 10px;
+}
+.wrapper_logup #kom{
+    position: relative;
+    bottom: 10px;
+}
+.wrapper_logup .form_control{
+    border: 2px solid black;
+    background: transparent;
+    border-radius: 10px;
+    height: 30px;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+    margin-left: 5px;
+    width: 400px;
+}
+.wrapper_logup .line_log_up label{
+    font-size: 20px;
+    font-weight: 300;
+    color: whitesmoke;
+}
+.wrapper_logup .line_log_up #Phone_number{
+    width:350px;
+}
+.wrapper_logup .form_control_gender{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 5px;
+    position:relative;
+    top: 10px;
+}
+.wrapper_logup .line_log_up span{
+    padding-left: 5px;
+    font-size: 16px;
+}
+.wrapper_logup #skill{
+    width: 15px;
+    position:relative;
+    top: 10px;
+}
+.wrapper_logup #city{
+    max-width: 120px;
+    font-size: 16px;
+}
+.wrapper_logup #file{
+    font-size: 16px;
+}
+.wrapper h1{
+    font-size: 36px;
+}
+.wrapper .login_input {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin: 10px 0.5px 15px -3.5px;
+    border: none;
+    background: transparent;
+}
+.login_input input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    padding: 0 0 0 5px;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 20px;
+}
+.wrapper_logup #file:hover{
+    background: none;
+}
+.line_log_up .form_control:hover{
+    background-color: white;
+}
+.login_input input:hover{
+    background-color: white;
+}
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper .remember-forgot label input{
+    margin-right: 5px;
+}
+.wrapper .remember-forgot a{
+    text-decoration: none;
+    color:white;
+}
+.wrapper .remember-forgot label:hover{
+    text-decoration: underline;
+}
+.wrapper .remember-forgot a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height:45px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size:20px;
+    background:transparent;
+}
+button:hover{
+    background-color: white;
+    color: rgb(255, 0, 0);
+}
+.wrapper .register-link{
+    text-align: center;
+    margin: 20px 0 15px 0;
+}
+.wrapper .register-link p{
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+}
+.wrapper .register-link a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+}
+.wrapper .register-link p a:hover{
+    text-decoration: underline;
+}
